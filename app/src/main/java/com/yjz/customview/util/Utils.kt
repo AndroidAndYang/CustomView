@@ -19,4 +19,12 @@ object Utils {
         return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, Resources.getSystem().displayMetrics)
     }
 
+    /**
+     * dp to px
+     * @param dp 实际值
+     * @return px
+     */
+    fun dp2sp(sp: Float): Float {
+        return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, sp, Resources.getSystem().displayMetrics)
+    }
 }

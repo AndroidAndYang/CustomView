@@ -28,7 +28,7 @@ class PieView(context: Context, attrs: AttributeSet) : View(context, attrs){
     /**
      *  角度
      */
-    private val angleList = listOf(60f,80f,100f,120f)
+    private val angleList = listOf(20f,120f,100f,120f)
     /**
      * 颜色
      */
@@ -36,7 +36,7 @@ class PieView(context: Context, attrs: AttributeSet) : View(context, attrs){
     /**
      *  弧度之间的空隙
      */
-    private val gap = Utils.dp2px(2f)
+    private val gap = Utils.dp2px(10f)
 
     init {
         paint.strokeWidth = Utils.dp2px(3f)
