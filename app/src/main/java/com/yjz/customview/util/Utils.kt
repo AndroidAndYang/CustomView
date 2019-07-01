@@ -27,4 +27,11 @@ object Utils {
     fun dp2sp(sp: Float): Float {
         return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, sp, Resources.getSystem().displayMetrics)
     }
+
+    /**
+     * 适配camera的Z轴
+     */
+    fun getZForCamera(): Float {
+        return -6 * Resources.getSystem().displayMetrics.density
+    }
 }
