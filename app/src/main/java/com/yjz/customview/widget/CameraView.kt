@@ -39,7 +39,7 @@ class CameraView(context: Context?, attributeSet: AttributeSet?) : View(context,
         // 3. 引用到Camera上
         camera.applyToCanvas(canvas)
         // 切割,clipRect会有锯齿,系统原因,更改不了
-        canvas.clipRect(-400 / 2 * 1.4f, -400 / 2 * 1.4f, 400 / 2 * 1.4f, 0 * 1.4f)
+        canvas.clipRect(-400 / 2 * 2f, -400 / 2 * 2f, 400 / 2 * 2f, 0 * 2f)
         canvas.rotate(20f)
         // 2.将画好的图平移直原点
         canvas.translate(-(400f / 2 + 100), -(400f / 2 + 100))
@@ -57,7 +57,7 @@ class CameraView(context: Context?, attributeSet: AttributeSet?) : View(context,
         // 3. 引用到Camera上
         camera.applyToCanvas(canvas)
         // 切割
-        canvas.clipRect(-400 / 2 * 1.4f, 0 * 1.4f, 400 / 2 * 1.4f, 400 / 2 * 1.4f)
+        canvas.clipRect(-400 / 2 * 2f, 0 * 2f, 400 / 2 * 2f, 400 / 2 * 2f)
         // 因为对长方形进行了rotate,所以切割是需要放大体积,放大的体积不会超过根号2 = 1.41421
         canvas.rotate(20f) // 进行偏移
         // 2.将画好的图平移直原点
