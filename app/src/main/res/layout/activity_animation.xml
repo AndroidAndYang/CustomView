@@ -4,9 +4,25 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <com.yjz.customview.animation.FancyFlipView
+    <!--<ImageView -->
+            <!--android:id="@+id/view"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:src="@drawable/avatar_rengwuxian"/>-->
+
+    <!--<com.yjz.customview.animation.CircleView -->
+            <!--android:id="@+id/view"-->
+            <!--android:layout_width="match_parent" -->
+            <!--android:layout_height="match_parent"/>-->
+
+    <!--<com.yjz.customview.animation.FancyFlipView-->
+            <!--android:id="@+id/view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"/>-->
+
+    <com.yjz.customview.animation.PointView
             android:id="@+id/view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
 </LinearLayout>
