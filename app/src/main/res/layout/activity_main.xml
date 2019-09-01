@@ -6,8 +6,12 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <com.yjz.customview.widget.CameraView
-            android:id="@+id/custom_view"
+    <!--<com.yjz.customview.widget.CameraView-->
+            <!--android:id="@+id/custom_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"/>-->
+
+    <com.yjz.customview.touch.ScaleLableImage
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
